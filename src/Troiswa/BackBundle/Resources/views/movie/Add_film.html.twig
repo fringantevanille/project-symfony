@@ -1,0 +1,97 @@
+{% extends "TroiswaBackBundle::layout.html.twig" %}
+
+{# chercher les erreurs
+{% form_theme formulaire _self %}
+{% block form_errors -%}
+    {% if errors|length > 0 -%}
+
+        {%- for error in errors -%}
+            <p class="alert alert-danger">{{ error.message }}</p>
+        {%- endfor -%}
+
+    {%- endif %}
+{%- endblock form_errors %}  #}
+
+{# permet l'héritage
+
+$this extends "troiswaBackBundle:default:master.html.twig"
+                                 _______
+#}
+
+
+{% block heading %}
+    <h1>Ajouter votre nouveau film !</h1>
+{% endblock %}
+
+
+{% block content %}
+    {{ form_start(formulaire,{"attr":{"novalidate":"novalidate"}}) }}
+
+    {#{{ form_row(formulaire) }}#}
+    {#{{ form_rest(formulaire) }}#}
+    {#ouverture de la form
+    {{ form_start(formulaire,{"attr":{"novalidate":"novalidate"}}) }} #}
+    {# permet déjà de retirer  #}
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.titre,{"attr":{"class":"form-control"}}) }}
+        </div>
+        form_label(formulaire.titre,"Votre film !")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.titre) }}
+    </div>
+
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.description,{"attr":{"class":"form-control"}}) }}
+        </div>
+        form_label(formulaire.description,"Votre description")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.description) }}
+    </div>
+
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.dateDeSortie,{"attr":{"class":"form-control"}}) }}
+        </div>
+        form_label(formulaire.dateDeSortie,"la date de Sortie de votre film !")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.dateDeSortie) }}
+    </div>
+
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.fichier,{"attr":{"class":"form-control"}}) }}
+        </div>
+        form_label(formulaire.fichier,"Votre image")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.fichier) }}
+    </div>
+
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.duree,{"attr":{"class":"form-control"}}) }}
+        </div>
+        form_label(formulaire.duree,"la durée de votre film")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.duree) }}
+    </div>
+
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.note,{"attr":{"class":"form-control"}}) }}
+        </div>
+        form_label(formulaire.note,"Votre note perso !")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.note) }}
+    </div>
+
+    {{form_end(formulaire)}}
+
+{% endblock %}

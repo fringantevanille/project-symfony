@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href={{ asset"css/style.css" }}
+    <title>twig</title>
+</head>
+<body>
+
+test.html.twig identifiant de la route
+<a href="{{ path("troiswa_back_prenom") }}">Lien vers la page prénom</a>
+<h1>votre prénom du jour !</h1>
+
+{{ firstname }}
+
+<h2>les Filters</h2>
+<ul>
+    <li>1 ere letrre en majuscule</li>
+    <p>{{ firstname|capitalize }}</p>
+
+    <li>Tt en majuscule</li>
+    <p>{{ firstname|upper }}</p>
+</ul>
+
+<h3>Nos acteurs du jour !</h3>
+{{ dump(allActeurs) }}
+
+{%for key,value in allActeurs%}
+
+    {{ value.prenom }} <br>{{ value.nom }}
+
+    <ul>
+        <li>son age: {{ value.age }}</li>
+
+        <li>son signe: {{ value.signe }}</li>
+    </ul>
+
+{%endfor%}
+</body>
+</html>

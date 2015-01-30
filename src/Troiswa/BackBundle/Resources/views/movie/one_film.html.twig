@@ -1,0 +1,29 @@
+{% extends "TroiswaBackBundle::layout.html.twig" %}
+
+{# permet l'héritage
+
+$this extends "troiswaBackBundle:default:master.html.twig"
+                                 _______
+#}
+
+{% block content %}
+    <header>
+        <h1>le film du jour !</h1>
+        <h2>{{ film.id }} <br/> {{ film.titre }}</h2>
+            <img src="{{ asset('img/')}}{{ film.image  }}"/><br/>
+    </header>
+        <article>
+            {{ film.description }} <br/>
+        </article>
+    <aside>
+        <p>date De Sortie: {{ film.dateDeSortie|date('d / m / Y') }} </p>
+        <br/>
+        <p>duree: {{ film.duree }} min</p>
+        <br/>
+        <p>note: {{ film.note }} /10</p>
+        <br/>
+    </aside>
+    <footer>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet exercitationem illum nemo pariatur quis, ratione repellat similique sit! Earum laborum maiores molestias mollitia, nam perferendis sit tempore velit veritatis.
+    </footer>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "TroiswaBackBundle::layout.html.twig" %}
+
+{# permet l'héritage
+
+$this extends "troiswaBackBundle:default:master.html.twig"
+                                 _______
+#}
+{% block content %}
+    <h1>Editer vos films !</h1>
+{% endblock %}
+
+{% block content %}
+    {{ form(formulaire) }}
+{% endblock %}

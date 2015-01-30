@@ -1,0 +1,80 @@
+{% extends "TroiswaBackBundle::layout.html.twig" %}
+
+{# permet l'héritage
+
+$this extends "troiswaBackBundle:default:master.html.twig"
+                                 _______
+#}
+{% block heading %}
+     <h1>Editer vos acteurs !</h1>
+{% endblock %}
+
+{% block content %}
+
+    {#{{ form_row(formulaire) }}#}
+  {#{{ form_rest(formulaire) }}#}
+    {#ouverture de la form #}
+    {{ form_start(formulaire,{"attr":{"novalidate":"novalidate"}}) }}
+    {# permet déjà de reti #}
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) }}
+        </div>
+         form_label(formulaire.prenom,"Votre prénom")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.prenom) }}
+    </div>
+
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.nom,{"attr":{"class":"form-control"}}) }}
+        </div>
+         form_label(formulaire.nom,"Votre nom")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.nom) }}
+    </div>
+
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.sexe,{"attr":{"class":"radio-inline"}}) }}
+        </div>
+         form_label(formulaire.sexe,"Votre genre")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.sexe) }}
+    </div>
+
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.biographie,{"attr":{"class":"form-control"}}) }}
+        </div>
+        form_label(formulaire.biographie,"Votre biographie")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.biographie) }}
+    </div>
+
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.dateNaissance,{"attr":{"class":"form-control"}}) }}
+        </div>
+         form_label(formulaire.dateNaissance,"Votre date de Naissance")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.dateNaissance) }}
+    </div>
+
+    <div>
+        <div class="form-group">
+            {{ form_widget(formulaire.signe_astro,{"attr":{"class":"form-control"}}) }}
+        </div>
+         form_label(formulaire.signe_astro,"Votre signe Astro")
+        {# widget correspônd à l'input#}
+        {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+        {{ form_errors(formulaire.signe_astro) }}
+    </div>
+
+    {{ form_end(formulaire) }}
+{% endblock %}

@@ -1,0 +1,147 @@
+{% extends "TroiswaBackBundle::layout.html.twig" %}
+
+{# chercher les erreurs #}
+{% form_theme formulaire _self %}
+{% block form_errors -%}
+    {% if errors|length > 0 -%}
+
+            {%- for error in errors -%}
+                <p class="alert alert-danger">{{ error.message }}</p>
+            {%- endfor -%}
+
+    {%- endif %}
+{%- endblock form_errors %}
+
+{# permet l'héritage
+
+$this extends "troiswaBackBundle:default:master.html.twig"
+                                 _______
+#}
+
+
+{% block heading %}
+    <h1>Ajouter votre nouvel acteur !</h1>
+{% endblock %}
+
+
+{% block content %}
+    {{ form_start(formulaire,{"attr":{"novalidate":"novalidate"}}) }}
+
+        {#{{ form_row(formulaire) }}#}
+        {#{{ form_rest(formulaire) }}#}
+        {#ouverture de la form #}
+        {{ form_start(formulaire,{"attr":{"novalidate":"novalidate"}}) }}
+        {# permet déjà de reti #}
+        <div>
+            <div class="form-group">
+                {{ form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) }}
+            </div>
+            form_label(formulaire.prenom,"Votre prénom")
+            {# widget correspônd à l'input#}
+            {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+            {{ form_errors(formulaire.prenom) }}
+        </div>
+
+        <div>
+            <div class="form-group">
+                {{ form_widget(formulaire.nom,{"attr":{"class":"form-control"}}) }}
+            </div>
+            form_label(formulaire.nom,"Votre nom")
+            {# widget correspônd à l'input#}
+            {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+            {{ form_errors(formulaire.nom) }}
+        </div>
+
+        <div>
+            <div class="form-group">
+                {{ form_widget(formulaire.sexe,{"attr":{"class":"radio-inline"}}) }}
+            </div>
+            form_label(formulaire.sexe,"Votre genre")
+            {# widget correspônd à l'input#}
+            {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+            {{ form_errors(formulaire.sexe) }}
+        </div>
+
+        <div>
+            <div class="form-group">
+                {{ form_widget(formulaire.biographie,{"attr":{"class":"form-control"}}) }}
+            </div>
+            form_label(formulaire.biographie,"Votre biographie")
+            {# widget correspônd à l'input#}
+            {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+            {{ form_errors(formulaire.biographie) }}
+        </div>
+
+        <div>
+            <div class="form-group">
+                {{ form_widget(formulaire.dateNaissance,{"attr":{"class":"form-control"}}) }}
+            </div>
+            form_label(formulaire.dateNaissance,"Votre date de Naissance")
+            {# widget correspônd à l'input#}
+            {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+            {{ form_errors(formulaire.dateNaissance) }}
+        </div>
+
+        <div>
+            <div class="form-group">
+                {{ form_widget(formulaire.signe_astro,{"attr":{"class":"form-control"}}) }}
+            </div>
+            form_label(formulaire.signe_astro,"Votre signe Astro")
+            {# widget correspônd à l'input#}
+            {# form_widget(formulaire.prenom,{"attr":{"class":"form-control"}}) #}
+            {{ form_errors(formulaire.signe_astro) }}
+        </div>
+
+    {{form_end(formulaire)}}
+
+    <!--<header>
+        <h1>le nouvel acteur du jour a bien été ajouté!</h1>
+
+        <form action="" method>
+            <label for="firstname">
+                prenom:
+            </label>
+            <input type="text" id="firstname"/><br/>
+
+            <label for="name">
+                nom:
+            </label>
+            <input type="text" id="name"/><br/>
+
+            <label for="gender">
+                sexe:H/F
+            </label>
+            <select name="" id="gender">
+                <option value="">0</option>
+                <option value="">1</option>
+            </select><br/>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Biographie"></textarea><br/>
+            <label for="birthday">
+                date de naissance:
+            </label>
+            <input type="text" id="birthday"/><br/>
+
+            <label for="astro">
+                signe astro:
+            </label>
+            <select name="" id="astro">
+                <option value="">Bélier</option>
+                <option value="">Taureau</option>
+                <option value="">Gémeaux</option>
+                <option value="">Cancer</option>
+                <option value="">Lion</option>
+                <option value="">Vierge</option>
+                <option value="">Balance</option>
+                <option value="">Scorpion</option>
+                <option value="">Sagittaire</option>
+                <option value="">Capricorne</option>
+                <option value="">Verseau</option>
+                <option value="">Poissons</option>
+            </select><br/>
+            <button type=""submit">Ajouter</button>
+        </form>
+    <footer>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet exercitationem illum nemo pariatur quis, ratione repellat similique sit! Earum laborum maiores molestias mollitia, nam perferendis sit tempore velit veritatis.
+    </footer>
+    -->
+{% endblock %}

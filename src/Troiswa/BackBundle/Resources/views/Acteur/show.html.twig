@@ -1,0 +1,36 @@
+{% extends "TroiswaBackBundle::layout.html.twig" %}
+
+{# permet l'héritage
+
+$this extends "troiswaBackBundle:default:master.html.twig"
+                                 _______
+#}
+{% block content %}
+
+    <header>
+    <h1>l'acteur du jour !</h1>
+    <h2>
+        {{ Acteur.id }}
+
+            {{ Acteur.prenom }} <br/>
+            {{ Acteur.nom }} <br/>
+    </h2>
+    <h3>
+            {{ Acteur.dateNaissance|date('d m Y') }} <br/>
+            {% if Acteur.sexe == 0 %}
+                Homme
+            {% else %}
+                Femme
+            {% endif %} <br/>
+    </h3>
+    </header>
+    <aside>
+        {{ Acteur.signeAstro }} <br/>
+    </aside>
+    <article>
+        {{ Acteur.biographie }} <br/>
+    </article>
+    <footer>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet exercitationem illum nemo pariatur quis, ratione repellat similique sit! Earum laborum maiores molestias mollitia, nam perferendis sit tempore velit veritatis.
+    </footer>
+{% endblock %}

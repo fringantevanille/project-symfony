@@ -1,0 +1,219 @@
+*********************************** Créer une table ds notre BDD par le terminal ******************************************
+les plus usuels: cd site/synfony
+_______________  ls
+
+ou aller sur la doc:http://symfony.com/fr/doc/current/bundles/SensioGeneratorBundle/commands/generate_doctrine_entity.html
+
+1> d'abord:
+php app/console generate:doctrine:entity
+
+TroiswaBackBundle:movie
+
+annotation par default dc taper entrée!
+
+id par default pas bsoin de le créer!
+
+titre
+
+entrée,entrée
+
+description
+
+text
+
+date_de_sortie
+
+datetime
+
+image
+
+entrée,entrée
+
+duree
+
+smallint
+
+note
+
+smallint
+
+yes
+************************************** Créer un lien()doctrine entre BDD/php **********************************************
+ ******************** generer une nouvelle entité:Doctrine(nom du projet:nom du fichier généré):  ************************
+TroiswaBackBundle:movie
+
+yes
+
+php app/console doctrine:schema:update --force
+
+entities
+
+
+********************************* Créer un mapping route pr indiké le pt de chute **************************************** 
+*********************************************** quel table ds MySql *******************************************************
+
+
+
+
+********************** refaire de même pr créer la table ds films et celles ds catégories *********************************
+TroiswaBackBundle:movie
+
+annotation par default dc taper entrée!
+
+id par default pas bsoin de le créer!
+
+titre
+
+entrée,entrée
+
+description
+
+text
+
+date_de_sortie
+
+datetime
+
+image
+
+entrée,entrée
+
+duree
+
+smallint
+
+note
+
+smallint
+
+yes
+************************************** Créer un lien()doctrine entre BDD/php **********************************************
+ ******************** generer une nouvelle entité:Doctrine(nom du projet:nom du fichier généré):  ************************
+TroiswaBackBundle:movie
+
+yes
+
+php app/console doctrine:schema:update --force
+
+entities
+
+
+********************************************** Class EntityRepository ****************************************************
+aller sur les sites pr la doc:
+	Documentation officielle : http://symfony.com/fr/doc/current/book/index.html
+
+Doctrine: http://www.doctrine-project.org/api/orm/2.2/class-Doctrine.ORM.EntityRepository.html
+
+Tutoriels :
+
+    http://openclassrooms.com/courses/developpez-votre-site-web-avec-le-framework-symfony2
+    http://www.lafermeduweb.net/tutorial/symfony2-apprendre-a-maitriser-le-framework-symfony-2-47.html
+
+
+
+
+
+trois_back_one_acteur
+	path: /acteur/{id}
+	defaults:__________
+
+public function showAction($id)
+{
+	$acteur=$this->getDoctrine()->getRepository("TroiswaBackBundle:Acteur")
+				    ->find($id);
+
+}
+
+
+->findAll()
+->find()
+->findOneBy()
+->findBy()
+->findOneBy*()
+->findBy*()
+
+
+<a href={{  }}
+
+
+************************************************** instructions **********************************************************
+-Page acteur
+	-trier par ordre croissant(prenom)
+
+-Pagefilm
+	-trier par ordre croissant(titre)
+
+-Faire tt ls liens (navigation, acteurs,etc)
+
+-class active sur le menu de navigation
+	
+
+************************************************** reglex (règles régulière) *********************************************
+pour avoir deux chiffres ds nos url
+
+troiswa_back_one_acteur:
+	path: /acteur/{id}
+	default:____________
+requirement:
+		id: \d+
+                    | |
+ uniquemt ds chiffres 1 ou infini
+
+
+public function showAction($id)
+	{
+		$acteur=this->getDoctrine();
+		if(empty($acteur))
+		{
+			throw $this->createNotFoundException("L'acteur n'existe pas");
+		}
+	} 
+
+
+****************************** Démarche pr créer ses pages toujours ds cette ordre *************************************** 
+1routing  /2controller  /3view
+
+
+
+************************************ création d'un bouton pr ajouter un acteur ********************************************
+créer la route ds routing un nouveau fichier 
+
+créer la route ds un nouveau fichier 
+
+
+************************************ création d'un bouton pr ajouter un acteur ********************************************
+
+add ajoute ds chp ds notre formulaire
+$em :signifie entity manager et récup les entities
+
+
+************************************ ajout d'un formulaire en ajoutant une méthod *****************************************
+
+// à partir du moment ou il connait l'objet, il ne vient pas d'être créer
+               $em->persist($acteur);
+
+// enregistremt en BDD
+               $em->flush();
+
+// bind :prd les infos du formulaire
+    return $this->render('TroiswaBackBundle:Acteur:Ajout.html.twig',["formulaire"=>$formulaire->createView()]);
+    
+*********************************** ajout option chp text pr diff typ de chp text *****************************************
+aller sur la doc:
+	type de formulaire de référence Symfony
+
+ou taper l'URL:
+	http://symfony.com/fr/doc/current/reference/forms/types.html
+
+1> Ajouter une checkbox à mn formulaire pour ajouter un acteur, puis de mêm pour ajouter un film:
+           ->add("sexe","choice" , array(
+                "choices" => array(
+                    0 => 'homme', 1 => 'femme'),
+        "expanded"=>true) )
+
+2> Création ds pages allFilm et page one_film:
+		
+3> Créer liens ajouter un film de mêm:
+	
+
+

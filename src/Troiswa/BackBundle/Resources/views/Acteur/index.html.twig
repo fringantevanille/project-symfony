@@ -1,0 +1,45 @@
+{% extends "TroiswaBackBundle::layout.html.twig" %}
+
+{# permet l'héritage
+
+$this extends "troiswaBackBundle:default:master.html.twig"
+                                 _______
+#}
+{% block content %}
+    <h1>Tous les acteurs !</h1>
+    <a class="btn btn-primary" href="{{ path('troiswa_back_Ajout_acteur')}}">ajouter un acteur</a>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>prenom</th>
+                <th>nom</th>
+                <th>sexe</th>
+                <th>date de naissance</th>
+                <th>signe astro</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for oneActeur in acteurs %}
+                <tr>
+                    <td>{{ oneActeur.id }}</td>
+                    <td>{{ oneActeur.prenom }}</td>
+                    <td>{{ oneActeur.nom }}</td>
+                    <td>
+                        {% if oneActeur.sexe == 0 %}
+                            Homme
+                        {% else %}
+                            Femme
+                        {% endif %}
+                    </td>
+                    <td>{{ oneActeur.dateNaissance|date('d m Y') }}</td>
+                    <td>{{ oneActeur.signeAstro }}</td>
+                    <td><a class="btn btn-primary" href="{{ path("troiswa_back_one_acteur",{"id" : oneActeur.id}) }}">Voir</a><a class="btn btn-warning" href="{{ path('troiswa_back_acteur_editer', {'id': oneActeur.id}) }}">Editer</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

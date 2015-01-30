@@ -1,0 +1,16 @@
+{% extends "TroiswaBackBundle::master.html.twig" %}
+
+{# permet l'héritage
+
+$this extends "troiswaBackBundle:default:master.html.twig"
+                                 _______
+#}
+
+{% block header %}
+    <h1>Bonjour</h1>
+{% endblock %}
+
+{% block main %}
+    {{ parent() }}
+    <h2>Autre titre</h2>
+{% endblock %}

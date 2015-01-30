@@ -1,0 +1,111 @@
+************************************************* Symfony.com ************************************************************ 
+
+1> aller sr le site symfony.com ou taper ds l'URL:
+	http://symfony.com/
+
+2> aller ds le menu vert et cliq documentation
+
+3> aller ds le menu de gauch et cliq sr BOOK pr avoir une petite fenêtre grise à droite pr le choix de la langue à cliquer:
+	français
+
+4> installer d'abord composer avant le dowload symfony
+
+5> avt de cliquer sr doload, cliq sr:
+	What is Composer and how to install it
+
+6> install le Composer de Windows en cliquant sr le liens (ci-dessous):
+	getcomposer.org/download
+
+7> ensuite rentrer ds le terminal et entrer ls lignes de codes:
+	curl -sS https://getcomposer.org/installer | php
+
+8> ensuite, taper (ls: liste les documents/dossiers/etc... et cd: change directory déplacement ds ls dossiers):
+	cd sites/ 
+
+9> Puis appuyer entée!
+
+10> enfin, taper ds le terminal:
+	ls  
+
+11> Puis appuyer entée!
+
+12> ensuite ajouter ds le terminal (php: à la place du dollard, create-project symfony: création d'un nouvo projet, path remplacé par symfony le nom de ce nouvo dossier ):
+	php composer create-project symfony/framework-standard-edition symfony/
+
+13> Ensuite le nbre de demande set trop importante dc il veule identifier que c'est la bonne pers. qui s'incrit dc il demande un identifiant: le user name
+
+14> pour finir l'install, il faut dc créer un compte sr la plateform de création de framework aller sr github.com:
+ ou taper ds l'URL:https://github.com
+
+15> créer un compte
+
+16> aller sr la boit mèl pr valider le compte en cliquant un lien donné par mèl!
+
+17> retour sr le terminal pour taper notre identifiant + notre motde pass!
+
+18> Puis appuyer entée et attendre un peu !
+
+19> enfin appuyer entée juqu'à qu'il n'est plus rien à l'affichage!
+
+
+********************************************** Utilisation symfony ******************************************************* 
+
+1> toujour taper pour l'affichage:
+	http://localhost/symfony/web/config.php
+
+2> travailler sous phpStorm 
+
+3> dossier app:regroupe ttes ls applications utiliséees 
+dossier bin:regroupe ds infos binaires
+dossier src:regroupe nos fichiers html, css, js
+dossier vendor:regroup ttes ls fonctionnalité de symfony! Ne surtt pas y touché mêm pr faire ds mis à jr!
+dossier web:regroup ds applications
+
+4> récup dossier Composer.phar et le mettre ds dossier symfony ds site
+
+5> pour ajouter ds notre terminal taper:
+	cd symfony/
+
+6> Puis appuyer entée!
+
+7> ensuite rajouter cette ligne de comd:
+ 	php app/console
+
+8> Puis appuyer entée!
+
+9> ensuite rajouter cette ligne de comd:
+	php app/console generate:bundle
+
+10> Puis appuyer entée!
+
+11> ensuite rajouter cette ligne de comd pr créer 2dossiers Troiswa et BackBundle(nomenclature obligatoire: majuscule à chaq. début de mot):
+	Troiswa/BackBundle
+
+12> cliq yes jusqu'à la demande de l'extension yml
+
+13> taper yml
+
+14> cliq yes 
+
+result: Cela à créer ds notre sous-dossier config du dossier app, un fichier routing.yml et ds notre sous-dossier Ressource du dossier app, un fichier AppKernel.php
+
+routing.yml: c la gestion de nos URL!
+AppKernel.php:Création d'une class
+
+15> faire le chemin en retournant sr php storm srr le fichier routing.yml du config du ressource, du dossier source(en dessous de defaults: { _controller: TroiswaBackBundle:Default:index }):
+	troiswa_back_first_page:
+      	path: /test
+
+16> rajouter un test ds notre fichier defaultController du sous-dossier Controller :
+	public function testAction()
+    	{
+
+    	}
+
+}
+
+
+
+
+
+	

@@ -1,0 +1,40 @@
+{% extends "TroiswaBackBundle::layout.html.twig" %}
+
+{# permet l'héritage
+
+$this extends "troiswaBackBundle:default:master.html.twig"
+                                 _______
+#}
+{% block content %}
+    <h1>Tous les films !</h1>
+    <a class="btn btn-primary" href="{{ path('troiswa_back_Ajout_film')}}">ajouter un film à voir !</a>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>titre</th>
+                <th>description</th>
+                <th>date_de_sortie</th>
+                <th>image</th>
+                <th>duree</th>
+                <th>note</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for allFilm in film %}
+                <tr>
+                    <td>{{ allFilm.id }}</td>
+                    <td>{{ allFilm.titre }}</td>
+                    <td>{{ allFilm.description }}</td>
+                    <td>{{ allFilm.dateDeSortie|date('d m Y') }}</td>
+                    <td> <img src="{{ asset('img/')}}{{ allFilm.image  }}"/></td>
+                    <td>{{ allFilm.duree }}</td>
+                    <td>{{ allFilm.note }}</td>
+                    <td><a class="btn btn-primary" href="{{ path("troiswa_back_one_film",{"id" : allFilm.id}) }}">Voir</a><a class="btn btn-warning" href="">Editer</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45a39ad0-dd41-44d5-aafb-4505119efc15" name="Default" comment="" />
+    <ignored path="symfony.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="symfony" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="movie.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Entity/movie.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="18" selection-start="861" selection-end="867" vertical-scroll-proportion="-22.666666" vertical-offset="270" max-vertical-offset="4698">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActeurController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/ActeurController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="35" selection-start="1877" selection-end="1877" vertical-scroll-proportion="-27.518518" vertical-offset="247" max-vertical-offset="1422">
+              <folding>
+                <element signature="e#49#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="324">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="0" selection-start="1412" selection-end="1412" vertical-scroll-proportion="-23.333334" vertical-offset="0" max-vertical-offset="738">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding>
+                <marker date="1422638172821" expanded="true" signature="0:94" placeholder="troiswa_back:" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing_dev.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.27527612" vertical-offset="0" max-vertical-offset="1177">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActeurType.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Form/ActeurType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="31" selection-start="493" selection-end="493" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="918">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Add_film.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/movie/Add_film.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="45" selection-start="2104" selection-end="2104" vertical-scroll-proportion="-24.0" vertical-offset="540" max-vertical-offset="1836">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filmController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/filmController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="62" selection-start="1758" selection-end="1758" vertical-scroll-proportion="-24.666666" vertical-offset="270" max-vertical-offset="1746">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/test.html.twig.html" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/prenom" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/test2.html" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/prenom.html.twig" />
+        <option value="$PROJECT_DIR$/web/bundles/style.css" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/test.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/master.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/mainController.php" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/theme.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/main/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/master.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/CategoriesController.php" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/CategorieController.php" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Categorie/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Acteur/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/movie/editer.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Acteur/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Acteur/editer.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Entity/Acteur.php" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Entity/movie.php" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/movie/film.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Acteur/Ajout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/movie/one_film.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/filmController.php" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/movie/Add_film.html.twig" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Form/ActeurType.php" />
+        <option value="$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/ActeurController.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
+    <option name="y" value="24" />
+    <option name="width" value="900" />
+    <option name="height" value="1416" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../namespaces" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views" />
+      <recent name="$PROJECT_DIR$/web/css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45a39ad0-dd41-44d5-aafb-4505119efc15" name="Default" comment="" />
+      <created>1422266303361</created>
+      <updated>1422266303361</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1280" y="24" width="900" height="1416" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33372366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24941452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298585" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2668948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24941452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../model/#.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/logs/dev.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="213214" max-vertical-offset="214416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Tests/Controller/DefaultControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/DependencyInjection/TroiswaBackExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/doc/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/TroiswaBackBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/theme.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="14" selection-start="310" selection-end="310" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="26" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/main/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="274" column="0" selection-start="12092" selection-end="12092" vertical-scroll-proportion="-36.074074" vertical-offset="3958" max-vertical-offset="5058" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/master.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="332" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.9136" vertical-offset="4834" max-vertical-offset="6084" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="173" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/prenom.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Default/test.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="72" selection-start="151" selection-end="223" vertical-scroll-proportion="0.1322449" vertical-offset="0" max-vertical-offset="1225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Entity/categorieRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1227" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Entity/movieRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Entity/ActeurRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/doctrine">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/doctrine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/doctrine-dbal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/security-checker">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1177" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/mainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="9" selection-start="58" selection-end="58" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Entity/categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Categorie/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="1" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/CategorieController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="1" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="55" selection-start="760" selection-end="760" vertical-scroll-proportion="0.33795917" vertical-offset="0" max-vertical-offset="4122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form/form_div_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="296" column="0" selection-start="9824" selection-end="9824" vertical-scroll-proportion="-9.157895" vertical-offset="4806" max-vertical-offset="6534">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Acteur/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="216" selection-start="1549" selection-end="1549" vertical-scroll-proportion="-22.037037" vertical-offset="89" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Acteur/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="14" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.7553957" vertical-offset="0" max-vertical-offset="834">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Entity/Acteur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="262" selection-end="262" vertical-scroll-proportion="0.29752067" vertical-offset="0" max-vertical-offset="4014">
+          <folding>
+            <element signature="e#45#77#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Acteur/editer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="14" selection-start="0" selection-end="2794" vertical-scroll-proportion="-30.037037" vertical-offset="611" max-vertical-offset="1530">
+          <folding>
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422617054906" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/movie/editer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="14" selection-start="178" selection-end="244" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/Acteur/Ajout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="319" selection-end="319" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="2736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/movie/film.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="38" selection-start="405" selection-end="405" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/movie/one_film.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="265" selection-end="265" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/filmController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="62" selection-start="1758" selection-end="1758" vertical-scroll-proportion="-24.666666" vertical-offset="270" max-vertical-offset="1746">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Entity/movie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="18" selection-start="861" selection-end="867" vertical-scroll-proportion="-22.666666" vertical-offset="270" max-vertical-offset="4698">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Resources/views/movie/Add_film.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="45" selection-start="2104" selection-end="2104" vertical-scroll-proportion="-24.0" vertical-offset="540" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Form/ActeurType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="493" selection-end="493" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troiswa/BackBundle/Controller/ActeurController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="35" selection-start="1877" selection-end="1877" vertical-scroll-proportion="-27.518518" vertical-offset="247" max-vertical-offset="1422">
+          <folding>
+            <element signature="e#49#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1202">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1412" selection-end="1412" vertical-scroll-proportion="-23.333334" vertical-offset="0" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding>
+            <marker date="1422638172821" expanded="true" signature="0:94" placeholder="troiswa_back:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.27527612" vertical-offset="0" max-vertical-offset="1177">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

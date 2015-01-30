@@ -1,0 +1,75 @@
+********************************************************* twig *********************************************************** 
+
+Twig est un moteur de template qui utilise une organisation plus simple que le php, à utiliser avc ou sans symfony!
+On rajoute des filters comme ds attributs ds notre HTML!
+
+Dc pour cela, aller sr la doc du site:
+	http://twig.sensiolabs.org
+
+Ou taper l'URL:
+	http://twig.sensiolabs.org/doc/filters/upper.html	
+
+1> ensuite créer une variable firstname
+
+2> créer un tableau
+
+3> afficher la valeur de notre variable ds notre fichier
+
+4> enfin à l'affichage utiliser les filters pour:
+	* mettre la 1ere lettre en majuscule
+		<p>{{ firstname|capitalize }}</p> 
+
+	* mettre tt en maj.
+	 	<p>{{ firstname|upper }}</p>
+
+5> créer un tableau d'acteur(un prénom et un nom):
+
+6> 2 syntax diffrerentes:
+	                   php                  |              twig
+_______________________________________________________________________________________                                                |
+<?php                                           |{%for key,value in allActeurs%}
+ foreach($allActeurs as $key=> $value)          |
+	{                                       |{{ value.prenom }} <br>
+		echo $value["prenom"];          |
+	}                                       |{%endfor%}
+?>                                              |
+                                                |{{ dump(allActeurs) }}
+                                                 
+
+
+******************************************** Ajouter ds liens avc twig ****************************************************
+
+<a href="{{ path("troiswa_back_prenom") }}">Lien vers la page prénom</a>
+
+
+****************************************** Ajouter un css ou js avc twig ************************************************
+
+<link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css"/>
+                             _____________________________
+De mêm pr ls script js:
+	<script src="{{ asset('js/bootstrap.min.js') }}"/></script>
+
+*********************************************** Créer un chemin (URL) *****************************************************
+ {# text #} :pour faire ls commentaire
+ {{ var }}  :pour créer une variable
+
+1> D'abord créer une route ds le fichier routing.yml du dosier config, 
+2> Créer le fichier mainController.php ds le dossier Controller,
+3> Puis créer le dossier main à coté du dossier default ds views( à l'intérieur du dossier main créer le fichier     
+   layout.html.twig ). 
+ 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
